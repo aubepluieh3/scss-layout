@@ -11,26 +11,25 @@ body {
 }
 header {
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 20;
+  left: 20;
   width: $fixedWidth;
   height: 100%;
-  padding: 190px;
-  padding: 10vh 0 72px 72px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   color: $red;
   h1 {
-    font-size: 85px;
+    font-size: 55px;
     width: 50%;
     text-transform: uppercase;
     letter-spacing: 5px;
   }
   h3 {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 300;
-    margin-bottom: 40px;
+    margin-top: 100px;
+    margin-bottom: 20px;
   }
 
   h3,
@@ -41,8 +40,8 @@ header {
   }
   p {
     font-weight: 300;
-    font-size: 22px;
-    margin-bottom: 40px;
+    font-size: 12px;
+    margin-bottom: 20px;
   }
   nav {
     width: 80%;
@@ -52,7 +51,7 @@ header {
       li {
         cursor: pointer;
         margin-right: 12px;
-        font-size: 20px;
+        font-size: 10px;
         color: black;
         opacity: 0.5;
         padding-bottom: 5px;
